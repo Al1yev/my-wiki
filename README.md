@@ -9,12 +9,7 @@
 
 ## 📝 Table of Contents
 
-- [About](#about)
-- [Getting Started](#getting_started)
-
-
-## 🧐 About <a name = "about"></a>
-
+- [Recursive Query in SQL](https://github.com/Al1yev/my-wiki/tree/recursive-query)
 
 ## 🏁 Getting Started <a name = "getting_started"></a>
 
