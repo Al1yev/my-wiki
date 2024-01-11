@@ -1,5 +1,4 @@
 <p align="center">
-  <a href="" rel="noopener">
  <img src="https://i.ibb.co/XsQZ6tL/7d793d27-5017-41b2-b75d-c6669b368725-2.png" align="center">
 </p>
 
