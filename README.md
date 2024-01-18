@@ -1,15 +1,31 @@
-<p align="center">
-  <a href="" rel="noopener">
- <img width=200px height=200px src="https://i.ibb.co/QPdSThw/7d793d27-5017-41b2-b75d-c6669b368725-1.jpg" alt="7d793d27-5017-41b2-b75d-c6669b368725-1">
-</p>
+## VIEW in SQL
 
-<h1 align="center">MY-WIKI</h1>
-<h2 align="center">Hello there! This is me Anvar👋</h2> 
-<h3 align="center">As I learn anything IT related in my life, I post my findings in this repo</h3>
+- ### What is **VIEW**
 
-## 📝 Table of Contents
+SQL-dagi VIEW virtual tablening bir turidir. VIEW da qatorlar va ustunlar mavjud, chunki ular ma'lumotlar bazasidagi haqiqiy jadvalda joylashgan. Biz ma'lumotlar bazasida mavjud bo'lgan bir yoki bir nechta jadvallardan maydonlarni tanlash orqali VIEW yaratishimiz mumkin
 
-- [Recursive Query in SQL](https://github.com/Al1yev/my-wiki/tree/recursive-query)
+<hr>
 
-## 🏁 Getting Started <a name = "getting_started"></a>
+- ### Syntax
 
+```
+
+```
+
+<hr>
+
+- ### Why should we use **VIEW**
+
+<hr>
+
+- ### When should we use **VIEW**
+
+<hr>
+
+- ### Example for **VIEW**
+
+- ### Note
+
+>
+
+- [Main Page](https://github.com/Al1yev/my-wiki/tree/main)
