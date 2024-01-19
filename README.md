@@ -16,11 +16,11 @@
   [trigger_body]
   ```
 
-  **CREATE TRIGGER [trigger_name]**: Mavjud triggerni yaratadi yoki trigger_name bilan almashtiradi;
-  **[BEFORE | AFTER]**: Bu trigger qachon bajarilishini bildiradi;
-  **[INSERT | UPDATE | DELETE]**: Bu DML operatsiyasini belgilaydi;
-  **ON [table_name]**: Bu trigger bilan bog'langan jadval nomini belgilaydi;
-  **[FOR EACH ROW]**: Bu satr darajasidagi triggerni belgilaydi, ya'ni trigger har bir qator uchun bajariladi;
+  **CREATE TRIGGER [trigger_name]**: Mavjud triggerni yaratadi yoki trigger_name bilan almashtiradi;<br>
+  **[BEFORE | AFTER]**: Bu trigger qachon bajarilishini bildiradi;<br>
+  **[INSERT | UPDATE | DELETE]**: Bu DML operatsiyasini belgilaydi;<br>
+  **ON [table_name]**: Bu trigger bilan bog'langan jadval nomini belgilaydi;<br>
+  **[FOR EACH ROW]**: Bu satr darajasidagi triggerni belgilaydi, ya'ni trigger har bir qator uchun bajariladi;<br>
   **[trigger_body]**: Bu trigger ishga tushirilganda bajarilishi kerak bo'lgan operatsiyani ta'minlaydi.
 
 <hr>
