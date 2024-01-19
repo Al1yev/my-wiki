@@ -1,6 +1,6 @@
-## VIEW in SQL
+## Theme
 
-- ### What is **VIEW**
+- ### What is **Something**
 
 <hr>
 
@@ -12,11 +12,11 @@
 
 <hr>
 
-- ### Why should we use **VIEW**
+- ### Why should we use **Something**
 
 <hr>
 
-- ### When should we use **VIEW**
+- ### When should we use **Something**
 
 <hr>
 
@@ -24,7 +24,7 @@
 
 <hr>
 
-- ### Example for **VIEW**
+- ### Example for **Something**
 
   ```
 
