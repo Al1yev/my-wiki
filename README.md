@@ -6,7 +6,7 @@
 
   Triggerlarning 3 ta turi mavjud:
 
-  1. **DDL Trigger**
+  1. **DDL Trigger**<br>
      _create_table_, _create_view_, _drop_table_, _drop_view_ va _alter_table_ kabi Data Definition Language (DDL) buyruqlari hisoblanib, ular bajarilganda DDL triggerlarining faollashishiga olib keladi.
      ```
       create tigger safety
@@ -16,7 +16,7 @@
       as
       print 'you can not create,drop and alter tab
      ```
-  2. **DML Trigger**
+  2. **DML Trigger**<br>
      INSERT, UPDATE va DELETE bilan boshlanadigan The Data uses Manipulation Language (DML) buyrug'i hodisalari _insert_table_, _update_view_ va _delete_table_ ga mos keladigan DML triggerlarini o'rnatadi.
      ```
       create trigger deep
@@ -27,7 +27,7 @@
       print 'you can not insert,update and delete this table i'
       rollback;
      ```
-  3. **Logon Trigger**
+  3. **Logon Trigger**<br>
 
   <hr>
 
