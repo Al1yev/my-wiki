@@ -34,7 +34,7 @@
   3. **Logon Trigger**<br>
      Tizimga kirish triggerlari LOGON hodisasiga javoban amal bajarish uchun ishlatilinadi. Autentifikatsiya jarayoni tugagandan so'ng, lekin foydalanuvchi sessiyasini o'rnatishdan oldin SQL Server namunasi bilan foydalanuvchi sessiyasi yaratilganda, LOGON hodisasi sodir bo'ladi. Natijada, PRINT bayonoti xabarlari va trigger tomonidan yaratilgan barcha xatolar SQL Server xatolar jurnalida ko'rinadi. Autentifikatsiya xatolari tizimga kirish triggerlaridan foydalanishga to'sqinlik qiladi. Ushbu triggerlar login faolligini kuzatish yoki server seanslarini tekshirish va boshqarish uchun maʼlum login ega boʻlishi mumkin boʻlgan seanslar soniga cheklov oʻrnatish uchun ishlatilishi mumkin.
 
-  <hr>
+<hr>
 
 - ### Syntax
 
@@ -64,7 +64,8 @@
   **Audit izlari**: Triggerlar ma'lumotlarga kiritilgan o'zgarishlarni kuzatish uchun ishlatilishi mumkin, masalan, alohida audit jadvalidagi o'zgarishlarni qayd etish. Bu ma'lumotlar o'zgarishi tarixini tekshirish va saqlashga yordam beradi.
 
   **Ma'lumotlarni tekshirish**: Triggerlar ma'lumotlar bazasida faqat haqiqiy va mos ma'lumotlar saqlanishini ta'minlab, ma'lumotlarni kiritish, yangilash yoki o'chirishdan oldin qo'shimcha tekshiruvlarini amalga oshirishi mumkin.
-  <hr>
+
+<hr>
 
 - ### When should we use Trigger
 
@@ -80,7 +81,7 @@
 
   ```
 
-  <hr>
+<hr>
 
 - ### Note
 
