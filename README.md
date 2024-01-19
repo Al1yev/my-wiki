@@ -90,7 +90,3 @@
 <hr>
 
 - [Main Page](https://github.com/Al1yev/my-wiki/tree/main)
-
-```
-
-```
