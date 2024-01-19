@@ -8,7 +8,7 @@
 
 - ### Syntax
 
-  ```
+  ```SQL
   CREATE VIEW view_name AS
   SELECT column1, column2.....
   FROM table_name
@@ -56,7 +56,7 @@
 
 - ### Example for **VIEW**
 
-  ```
+  ```SQL
   CREATE TABLE Books (
     BookID INT PRIMARY KEY,
     Title VARCHAR(100),
