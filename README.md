@@ -83,6 +83,12 @@
 
 > Shuni ta'kidlash kerakki, VIEW ma'lumotlarni o'zi saqlamaydi; ular shunchaki so'rov natijasini ifodalash usulini taqdim etadilar. VIEW orqali asosiy ma'lumotlarga kiritilgan har qanday o'zgarishlar asosiy jadvallardagi haqiqiy ma'lumotlarga ta'sir qiladi. Bundan tashqari, agar ular murakkab operatsiyalar, agregatlar yoki bir nechta jadvallarni o'z ichiga olsa, ba'zi VIEW yangilanmasligi mumkin.
 
+> Databasedagi barcha VIEW larning ro'yxatini olish uchun:
+
+```SQL
+SHOW FULL TABLES IN your_db_name WHERE TABLE_TYPE LIKE 'VIEW';
+```
+
 <hr>
 
 - ### Summary
