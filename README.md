@@ -10,6 +10,6 @@
 ## 📝 Table of Contents
 
 - [Recursive Query in SQL](https://github.com/Al1yev/my-wiki/tree/recursive-query)
+- [VIEW in SQL](https://github.com/Al1yev/my-wiki/tree/sql-view)
 
 ## 🏁 Getting Started <a name = "getting_started"></a>
-
