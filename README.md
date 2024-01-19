@@ -9,8 +9,9 @@
 
 ## 📝 Table of Contents
 
-- [Recursive Query in SQL](https://github.com/Al1yev/my-wiki/tree/recursive-query)
-- [PIVOT Operator in SQL](https://github.com/Al1yev/my-wiki/tree/sql-pivot)
-- [VIEW in SQL](https://github.com/Al1yev/my-wiki/tree/sql-view)
+- ### Advanced SQL
+  1. [Recursive Query in SQL](https://github.com/Al1yev/my-wiki/tree/recursive-query)
+  1. [PIVOT Operator in SQL](https://github.com/Al1yev/my-wiki/tree/sql-pivot)
+  1. [VIEW in SQL](https://github.com/Al1yev/my-wiki/tree/sql-view)
 
 ## 🏁 Getting Started <a name = "getting_started"></a>
