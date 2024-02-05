@@ -1,10 +1,10 @@
-## Theme
+## Mavzu
 
-- ### What is **Something**
+- ### **Mavzu** o'zi nima
 
 <hr>
 
-- ### Syntax
+- ### Sintaksisi
 
   ```
 
@@ -12,11 +12,11 @@
 
 <hr>
 
-- ### Why should we use **Something**
+- ### **Mavzu** dan nima maqsadda foydalanamiz?
 
 <hr>
 
-- ### When should we use **Something**
+- ### **Mavzu** ni qayerda ishlatishimiz kerak?
 
 <hr>
 
@@ -24,7 +24,7 @@
 
 <hr>
 
-- ### Example for **Something**
+- ### **Mavzu** ga misollar
 
   ```
 
@@ -32,11 +32,11 @@
 
   <hr>
 
-- ### Note
+- ### Eslatma
 
 <hr>
 
-- ### Summary
+- ### Xulosa
 
 <hr>
 
