@@ -1,6 +1,6 @@
-## Theme
+## The Triggers in SQL
 
-- ### What is Trigger
+- ### What is Trigger?
 
   SQL triggeri jadval bilan bog'langan ma'lumotlar bazasi ob'ekti bo'lib, ushbu jadvalda ma'lum bir hodisa sodir bo'lganda avtomatik ravishda SQL operatorlari to'plamini bajaradi. Triggerlar biznes qoidalarini qo'llash, ma'lumotlar yaxlitligini saqlash va ma'lumotlar bazasidagi muayyan harakatlarni avtomatlashtirish uchun ishlatiladi. Ular jadvalga ma'lumotlarni qo'shish, yangilash yoki o'chirish kabi turli hodisalar bilan qo'zg'alishi mumkin va ular ushbu hodisalar asosida qo'shimcha operatsiyalarni bajarishga imkon beradi.
 
@@ -32,7 +32,7 @@
      ```
 
   3. **Logon Trigger**<br>
-     Tizimga kirish triggerlari LOGON hodisasiga javoban amal bajarish uchun ishlatilinadi. Autentifikatsiya jarayoni tugagandan so'ng, lekin foydalanuvchi sessiyasini o'rnatishdan oldin SQL Server namunasi bilan foydalanuvchi sessiyasi yaratilganda, LOGON hodisasi sodir bo'ladi. Natijada, PRINT bayonoti xabarlari va trigger tomonidan yaratilgan barcha xatolar SQL Server xatolar jurnalida ko'rinadi. Autentifikatsiya xatolari tizimga kirish triggerlaridan foydalanishga to'sqinlik qiladi. Ushbu triggerlar login faolligini kuzatish yoki server seanslarini tekshirish va boshqarish uchun maʼlum login ega boʻlishi mumkin boʻlgan seanslar soniga cheklov oʻrnatish uchun ishlatilishi mumkin.
+     Tizimga kirish triggerlari LOGON hodisasiga javob sifatida bajariladigan buyruqlardir. Autentifikatsiya jarayoni tugagandan so'ng, lekin foydalanuvchi sessiyasini o'rnatishdan oldin SQL Server namunasi bilan foydalanuvchi sessiyasi yaratilganda, LOGON hodisasi sodir bo'ladi. Natijada, PRINT bayonoti xabarlari va trigger tomonidan yaratilgan barcha xatolar SQL Server xatolar jurnalida ko'rinadi. Autentifikatsiya xatolari tizimga kirish triggerlaridan foydalanishga to'sqinlik qiladi. Ushbu triggerlar login faolligini kuzatish yoki server seanslarini tekshirish va boshqarish uchun maʼlum login ega boʻlishi mumkin boʻlgan seanslar soniga cheklov oʻrnatish uchun ishlatilishi mumkin.
 
 <hr>
 
@@ -55,7 +55,11 @@
 
 <hr>
 
-- ### Why should we use Trigger
+- ### Why should we use Trigger?
+
+<hr>
+
+- ### When should we use Trigger?
 
   **Ma'lumotlar yaxlitligi**: Triggerlar ma'lumotlar bazasi darajasida murakkab biznes qoidalari va cheklovlarini qo'llash imkonini beradi, bu esa ma'lumotlarning izchil va aniq bo'lishini ta'minlaydi.
 
@@ -64,10 +68,6 @@
   **Audit izlari**: Triggerlar ma'lumotlarga kiritilgan o'zgarishlarni kuzatish uchun ishlatilishi mumkin, masalan, alohida audit jadvalidagi o'zgarishlarni qayd etish. Bu ma'lumotlar o'zgarishi tarixini tekshirish va saqlashga yordam beradi.
 
   **Ma'lumotlarni tekshirish**: Triggerlar ma'lumotlar bazasida faqat haqiqiy va mos ma'lumotlar saqlanishini ta'minlab, ma'lumotlarni kiritish, yangilash yoki o'chirishdan oldin qo'shimcha tekshiruvlarini amalga oshirishi mumkin.
-
-<hr>
-
-- ### When should we use Trigger
 
 <hr>
 
