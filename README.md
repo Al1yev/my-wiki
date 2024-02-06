@@ -1,13 +1,13 @@
-## The Triggers in SQL
+## SQLda Triggerlar
 
-- ### What is Trigger?
+- ### Trigger o'zi nima?
 
-  SQL triggeri jadval bilan bog'langan ma'lumotlar bazasi ob'ekti bo'lib, ushbu jadvalda ma'lum bir hodisa sodir bo'lganda avtomatik ravishda SQL operatorlari to'plamini bajaradi. Triggerlar biznes qoidalarini qo'llash, ma'lumotlar yaxlitligini saqlash va ma'lumotlar bazasidagi muayyan harakatlarni avtomatlashtirish uchun ishlatiladi. Ular jadvalga ma'lumotlarni qo'shish, yangilash yoki o'chirish kabi turli hodisalar bilan qo'zg'alishi mumkin va ular ushbu hodisalar asosida qo'shimcha operatsiyalarni bajarishga imkon beradi.
+  SQL triggeri jadval bilan bog'langan DB ob'ekti bo'lib, ushbu jadvalda ma'lum bir hodisa sodir bo'lganda avtomatik ravishda SQL operatorlaridan foydalangan holda amal bajaradi. Triggerlar biznes qoidalarini qo'llash, ma'lumotlar yaxlitligini saqlash va ma'lumotlar bazasidagi muayyan harakatlarni avtomatlashtirish uchun ishlatiladi. Ular jadvalga ma'lumotlarni qo'shish, yangilash yoki o'chirish kabi turli hodisalar yuz berganda ishga tushishi mumkin va ular ushbu hodisalar asosida qo'shimcha operatsiyalarni bajarishga imkon beradi.
 
   Triggerlarning 3 ta turi mavjud:
 
   1. **DDL Trigger**<br>
-     _create_table_, _create_view_, _drop_table_, _drop_view_ va _alter_table_ kabi Data Definition Language (DDL) buyruqlari hisoblanib, ular bajarilganda DDL triggerlarining faollashishiga olib keladi.
+     _create_table_, _create_view_, _drop_table_, _drop_view_ va _alter_table_ kabi **Data Definition Language** (DDL) buyruqlari hisoblanib, ular bajarilganda DDL triggerlarining faollashishiga olib keladi.
 
      ```
       create tigger safety
@@ -19,7 +19,7 @@
      ```
 
   2. **DML Trigger**<br>
-     INSERT, UPDATE va DELETE bilan boshlanadigan The Data uses Manipulation Language (DML) buyrug'i hodisalari _insert_table_, _update_view_ va _delete_table_ ga mos keladigan DML triggerlarini o'rnatadi.
+     INSERT, UPDATE va DELETE bilan boshlanadigan **The Data uses Manipulation Language** (DML) buyrug'i hodisalari _insert_table_, _update_view_ va _delete_table_ ga mos keladigan DML triggerlarini o'rnatadi.
 
      ```
       create trigger deep
@@ -32,11 +32,11 @@
      ```
 
   3. **Logon Trigger**<br>
-     Tizimga kirish triggerlari LOGON hodisasiga javob sifatida bajariladigan buyruqlardir. Autentifikatsiya jarayoni tugagandan so'ng, lekin foydalanuvchi sessiyasini o'rnatishdan oldin SQL Server namunasi bilan foydalanuvchi sessiyasi yaratilganda, LOGON hodisasi sodir bo'ladi. Natijada, PRINT bayonoti xabarlari va trigger tomonidan yaratilgan barcha xatolar SQL Server xatolar jurnalida ko'rinadi. Autentifikatsiya xatolari tizimga kirish triggerlaridan foydalanishga to'sqinlik qiladi. Ushbu triggerlar login faolligini kuzatish yoki server seanslarini tekshirish va boshqarish uchun maʼlum login ega boʻlishi mumkin boʻlgan seanslar soniga cheklov oʻrnatish uchun ishlatilishi mumkin.
+     Tizimga kirish triggerlari **LOGON** hodisasiga javob sifatida bajariladigan buyruqlardir. Autentifikatsiya jarayoni tugagandan so'ng, lekin foydalanuvchi sessiyasini o'rnatishdan oldin SQL Server namunasi bilan foydalanuvchi sessiyasi yaratilganda, LOGON hodisasi sodir bo'ladi. Natijada, PRINT bayonoti xabarlari va trigger tomonidan yaratilgan barcha xatolar SQL Server xatolar jurnalida ko'rinadi. Autentifikatsiya xatolari tizimga kirish triggerlaridan foydalanishga to'sqinlik qiladi. Ushbu triggerlar login faolligini kuzatish yoki server seanslarini tekshirish va boshqarish uchun maʼlum login ega boʻlishi mumkin boʻlgan seanslar soniga cheklov oʻrnatish uchun ishlatilishi mumkin.
 
 <hr>
 
-- ### Syntax
+- ### Sintaksisi
 
   ```
   CREATE TRIGGER [trigger_name]
@@ -55,11 +55,19 @@
 
 <hr>
 
-- ### Why should we use Trigger?
+- ### Triggerdan nima maqsadda foydalanamiz?
+
+  SQL da triggerlar quyidagilar uchun ishlatiladi:
+
+  1. Ma'lumotlar yaxlitligini ta'minlash.
+  2. Vazifalarni avtomatlashtirish.
+  3. Biznes qoidalarini amalga oshirish.
+  4. Audit uchun o'zgarishlarni kuzatib boring.
+  5. Tashqi tizimlar bilan integratsiya
 
 <hr>
 
-- ### When should we use Trigger?
+- ### Triggerdan qachon foydalanamiz?
 
   **Ma'lumotlar yaxlitligi**: Triggerlar ma'lumotlar bazasi darajasida murakkab biznes qoidalari va cheklovlarini qo'llash imkonini beradi, bu esa ma'lumotlarning izchil va aniq bo'lishini ta'minlaydi.
 
@@ -71,11 +79,11 @@
 
 <hr>
 
-- ### Kamchilik
+- ### Kamchiliklari
 
 <hr>
 
-- ### Example for Trigger
+- ### Triggerga misollar
 
   ```
 
@@ -83,11 +91,11 @@
 
 <hr>
 
-- ### Note
+- ### Eslatmalar
 
 <hr>
 
-- ### Summary
+- ### Xulosa
 
 <hr>
 
