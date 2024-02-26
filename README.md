@@ -1,6 +1,6 @@
-## Mavzu
+## Docker
 
-- ### **Mavzu** o'zi nima
+- ### **Docker** o'zi nima
 
 <hr>
 
@@ -12,11 +12,11 @@
 
 <hr>
 
-- ### **Mavzu** dan nima maqsadda foydalanamiz?
+- ### **Docker** dan nima maqsadda foydalanamiz?
 
 <hr>
 
-- ### **Mavzu** ni qayerda ishlatishimiz kerak?
+- ### **Docker** ni qayerda ishlatishimiz kerak?
 
 <hr>
 
@@ -24,7 +24,7 @@
 
 <hr>
 
-- ### **Mavzu** ga misollar
+- ### **Docker** ga misollar
 
   ```
 
