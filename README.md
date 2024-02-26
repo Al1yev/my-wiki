@@ -41,28 +41,29 @@
 
 - ### **PDFKIT** ga misollar
 
-Oddiy qisqa ma'lumotli hujjat yaratishga misol:
+  Oddiy qisqa ma'lumotli hujjat yaratishga misol:
 
-```
+  ```
 
-const PDFDocument = require('pdfkit');
-const fs = require('fs');
+  const PDFDocument = require('pdfkit');
+  const fs = require('fs');
 
-// Yangi PDF hujjat yaratish
-const doc = new PDFDocument();
+  // Yangi PDF hujjat yaratish
+  const doc = new PDFDocument();
 
-// PDF hujjatni hotiraga saqlab turish
-doc.pipe(fs.createWriteStream('example.pdf'));
+  // PDF hujjatni hotiraga saqlab turish
+  doc.pipe(fs.createWriteStream('example.pdf'));
 
-// Hujjatga ma'lumot qo'shish
-doc
-.fontSize(20)
-.text('Hello, PDFKit!', 100, 100)
-.fontSize(14)
-.text('This is a basic example of creating a PDF document using PDFKit.', 100, 150);
+  // Hujjatga ma'lumot qo'shish
+  doc
+  .fontSize(20)
+  .text('Hello, PDFKit!', 100, 100)
+  .fontSize(14)
+  .text('This is a basic example of creating a PDF document using PDFKit.', 100, 150);
 
-// Hujjatni yakunlash
-doc.end();
+  // Hujjatni yakunlash
+  doc.end();
+  ```
 
 ```
 
@@ -77,3 +78,4 @@ doc.end();
 <hr>
 
 - [Main Page](https://github.com/Al1yev/my-wiki/tree/main)
+```
